@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/ HTML5 display-role reset for older browsers /
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+ul {list-style:none;}
+
+@font-face{
+	font-family: Myfont;
+	src: url(fonts/Montserrat-Regular.ttf);
+}
+
+.blockwidth{
+	width:320px;
+	margin:auto;
+	font-family:Myfont;
+	}
+	
+.header {
+	height:38px;
+	background:#373c3f;
+	font-size:15px;
+	color:#ebebeb;
+}
+.navigation {
+	display:none;
+	padding-left:38px;
+	padding-top:25px;
+	
+}
+.navigation li {
+	float:left;
+	margin-right:30px;
+}
+.white{color:#ffffff;}
+
+.button{cursor:pointer;}
+
+.first{color:#ffffff;}
+
+.navbutton {
+	float:right;
+	height:38px;
+	width:40px;
+	background:url(img/menu.jpg) no-repeat center;
+	background-size:cover;
+}
+
+.navnone {
+	position:absolute;
+	padding-left:19px;
+	padding-top:12px;
+	font-size:12px;
+	width:160px;
+	color:#ebebeb;
+}
+
+
+.banner1{
+	height:175px;
+	background: url(img/Banner1.jpg) no-repeat bottom;
+	background-size:cover;
+}
+
+.banner2{
+	height:75px;
+	background: url(img/textBox.jpg) no-repeat;
+	background-size:cover;
+}
+
+.container1{
+	height:830px;
+}
+
+.banner3{
+	background:url(img/1.jpg) no-repeat;
+	background-size:cover;
+	height:276px;
+	width:320px;
+}
+
+.banner4{
+	background:url(img/2.jpg) no-repeat;
+	background-size:cover;
+	height:276px;
+	width:320px;
+}
+
+.banner5{
+	background:url(img/3.jpg) no-repeat;
+	background-size:cover;
+	height:277px;
+	width:320px;
+}
+
+.container2{
+	position:relative;
+	height:445px;
+	background:#ebebeb;
+}
+
+.bigtext {
+	color:#088ca5;
+	font-size:19px;
+}
+.textblock1{
+	position:absolute;
+	height:375px;
+	width:257px;
+	padding:35px 38px;
+	padding-right:25px;
+}
+
+.textblock2{
+	display: none;
+}
+
+.text1{
+	line-height: 22px;
+	font-size:13px;
+	color:#515151;
+	margin-top:8px;
+}
+
+.text2{
+	line-height: 22px;
+	font-size:13px;
+	color:#515151;
+	margin-top:16px;
+}
